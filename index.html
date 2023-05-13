@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+  Name: Tatsuhiko Araki
+  Date: April 18, 2023
+  Section: CSE 154 AA
+
+  This is the index.html page of web development work.
+  It is the the Pokédex page which links to index.js file.
+  You can search Pokemon or finding new pokemon.
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pokémon Information</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <h1>Pokémon Information</h1>
+  <form id="pokemon-form">
+    <label for="pokemon-name">Enter a Pokémon name:</label>
+    <input type="text" id="pokemon-name" name="pokemonName">
+    <button type="submit" >Get Pokémon Info</button>
+  </form>
+  <button id="random-pokemon-button" >Meeting New Pokemon</button>
+  <div id="pokemon-info">
+    <h2 id="pokemon-name-output"></h2>
+    <img id="pokemon-img-output" src="img/pikachu.jpg" alt="pokemon image">
+    <p>Type: <span id="pokemon-type-output"></span></p>
+    <p>Ability: <span id="pokemon-ability-output"></span></p>
+    <p>Height: <span id="pokemon-height-output"></span> m</p>
+    <p>Weight: <span id="pokemon-weight-output"></span> kg</p>
+  </div>
+</body>
+</html>

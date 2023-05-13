@@ -1,0 +1,92 @@
+/*
+  Name: Tatsuhiko Araki
+  Date: March 28, 2023
+  Section: CSE 154 AA
+  This is the styles.css page of web development work.
+  It is based on the program which is given as a Creative Project 3. This
+  program links to index.html. This is used by all pages
+*/
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, form {
+  margin-top: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"], #random-pokemon-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover, #random-pokemon-button:hover {
+  background-color: #3e8e41;
+}
+
+#pokemon-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#pokemon-info h2 {
+  text-align: center;
+}
+
+#pokemon-info img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+#pokemon-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#pokemon-form {
+  display: inline-block;
+}
+
+#random-pokemon-button {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#pokemon-img-output {
+  border-radius: 50%;
+}
