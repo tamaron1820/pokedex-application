@@ -18,5 +18,7 @@ Enter a Pokémon name:のフォームにポケモンの名前(英語)を入力�
 Meeting New Pokemonを押すとランダムでポケモンが表示される。
 
 # Usage
+```bash
 git clone git@github.com:tamaron1820/pokedex-application.git
+```
 index.htmlをクリック
